@@ -1,0 +1,243 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+li{
+	list-style: none;
+}
+.banner {
+    width: 100%;
+    height: 400px;
+    background: url(../images/serve_banner_02.png) no-repeat center;
+}
+
+.top-floor {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 450px;
+    background-color: rgba(255, 255, 255, .3);
+    color: #666666;
+}
+
+.title-word {
+	text-align: center;
+	width: 350px;
+	height: 70px;
+	margin: -35px 0 0 -125px;
+	position: relative;
+	left: 50%;
+	top: 50%;
+}
+
+ .title-word span:first-child {
+	font: 22px 微软雅黑;
+	color: #CA171D;
+	font-weight: 600;
+}
+
+ .top-floor .title-word span:last-child {
+	font: 16px 微软雅黑;
+	line-height: 50px;
+	color: #333333;
+	font-weight: 600;
+}
+
+
+/* banner结束 */
+
+
+/* 导航开始 */
+
+.container-fiuid .container div li {
+    width: 115px;
+    height: 44px;
+    float: left;
+    border-bottom: 1px solid transparent;
+    cursor: pointer;
+    text-align: center;
+    line-height: 44px;
+    font-family: 微软雅黑;
+    font-size: 14px;
+    color: #666666;
+}
+
+.container-fiuid .container div li:hover {
+    color: #c92127;
+    border-bottom: 1px solid #c92127;
+}
+
+
+/* 导航结束 */
+
+
+/* 食品安全 */
+
+.container-fluid .container .row div p:nth-child(2) {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 16px;
+    font-family: "微软雅黑";
+    
+}
+
+.container-fluid .container .row div p:nth-child(3) {
+    text-indent: 2em;
+    font-size: 12px;
+    font-family: "微软雅黑";
+    color: #666666;
+}
+
+
+/* 食品安全结束 */
+
+
+/* 重要产品追溯开始 */
+.container-fluid{
+	/*color: #666666;*/
+}
+.container-fluid .cont-word p:nth-child(1) {
+    padding: 80px 0 15px 20px;
+    font-family: "微软雅黑";
+    font-size: 16px;
+}
+
+.container-fluid .cont-word p:nth-child(2) {
+    margin: 0 0 15px 20px;
+    color: #c92127;
+     font-family: "微软雅黑";
+    font-size: 14px;
+    
+}
+
+.container-fluid .cont-word p:nth-child(3) {
+    margin: 0 0 25px 20px;
+    font-family: "微软雅黑";
+    color: #666666;
+    font-size: 12px;
+    
+}
+
+.container-fluid .container div .img {
+    margin-bottom: 30px;
+}
+
+/*.container-fluid .container div span {
+    color: #C92027;
+    font-size: 14px;
+    font-family: "微软雅黑";
+    
+    
+}*/
+.container-fluid .container div{
+	font-family: "微软雅黑";
+	font-size: 12px;
+	
+}
+.container-fluid .container div .iocn-title {
+    margin: 20px 0 15px 0;
+    color: #89815d;
+    font-size: 12px;
+    font-family: "微软雅黑";
+}
+
+
+/* 重要产品追溯结束 */
+
+
+/* 食药追溯开始 */
+
+.container-fluid .container div .title-number {
+    width: 69px;
+    height: 69px;
+    background: #a9a9a9;
+    text-align: center;
+    color: #fff;
+    border-radius: 50%;
+    line-height: 69px;
+    font-size: 58px;
+    float: left;
+}
+
+.container-fluid .container div .content-title {
+    color: #c92127;
+    margin: 0 0 0 85px;
+    font-size: 14px;
+    font-family: "微软雅黑";
+}
+
+.container-fluid .container div .img-style {
+    margin-top: -5px;
+    position: absolute;
+    right: 81px;
+}
+
+.container-fluid .container div .content-info {
+    margin: 0 0 0 85px;
+    text-indent: 2em;
+     font-size: 12px;
+    font-family: "微软雅黑";
+    color: #666666;
+}
+
+.iocn-title img{
+	float: left;
+	padding-top:4px;
+	
+}
+.p-z{
+	width: 300px;
+	margin: auto;
+	
+}
+.tab{
+	display: none;
+	margin: auto;
+}
+.tab img{
+	margin: 0 auto;
+	text-align: center;
+}
+.active{
+	color: #C92027 !important;
+	border-bottom: 1px solid #C92027 !important;
+}
+.serve-icon1{
+	cursor: pointer;
+	height: 130px;
+	background: url(../images/01-1.png)no-repeat center;
+	
+}
+.serve-icon2{
+	cursor: pointer;
+	height: 130px;
+	background: url(../images/02-1.png)no-repeat center;
+	
+}
+.serve-icon3{
+	cursor: pointer;
+	height: 130px;
+	background: url(../images/03-1.png)no-repeat center;
+	
+}
+.icon-box:hover .serve-icon1{
+	background: url(../images/01-2.png)no-repeat center;
+}
+.icon-box:hover .serve-icon2{
+	background: url(../images/02-2.png)no-repeat center;
+}
+.icon-box:hover .serve-icon3{
+	background: url(../images/03-2.png)no-repeat center;
+}
+/* 食药追溯结束 */
+/*返回顶部*/
+.gotop{
+	width: 38px;
+	height: 50px;
+	background: url(../images/top.png)no-repeat center;
+	 position: fixed;
+     display: none;
+     right:0 ;
+     bottom: 100px;
+}

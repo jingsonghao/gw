@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>公司简介</title>
+		<meta name="renderer" content="webkit|ie-comp|ie-stand">
+		<!-- <meta name="viewport" content="width=device-width, initial-scale=1">-->
+		<link rel="stylesheet" type="text/css" href="css/common.css" />
+		<link rel="stylesheet" type="text/css" href="css/brief.css" />
+		<!--<link rel="stylesheet" type="text/css" href="css/header.css"/>-->
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+		<script src="js/jquery-3.2.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/modernizr.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/brdef.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/header.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/top.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript" src="http://api.map.baidu.com/api?key=&v=1.1&services=true"></script>
+	</head>
+	<script type="text/javascript">
+		//检测浏览器 加载不同的样式
+		if(!!window.ActiveXObject || "ActiveXObject" in window) {
+			document.write('<link rel=stylesheet type="text/css" href="css/ie.css">')
+		} else {
+			document.write('<link rel=stylesheet type="text/css" href="css/header.css">')
+		}
+	</script>
+
+	<body>
+		<!--		nav开始-->
+		<div class="container-fluid navss">
+			<nav class="navbar navbar-default container" id="navbar" style="background: #fff;z-index: 999; ">
+				<div class="container-fluid">
+					<!-- Brand and toggle get grouped for better mobile display -->
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false" style="z-index: 999;">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                        </button>
+						<a class="navbar-left" href="#">
+							<img src="images/logo.gif" id="logo" class="animated fadeInRight" />
+						</a>
+					</div>
+
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						<ul class=" navbar-nav  navbar-right  nav-menu clearfix  unstyled">
+							<li>
+								<a href="index.html" class="three-d ">
+									首页
+									<span class="three-d-box"><span class="front">首页</span><span class="back">首页</span></span>
+								</a>
+							</li>
+							<li>
+								<a href="serve.html" class="three-d">
+									产品服务
+									<span class="three-d-box"><span class="front">产品服务</span><span class="back">产品服务</span></span>
+								</a>
+							</li>
+							<li>
+								<a href="Success.html" class="three-d">
+									成功案例
+									<span class="three-d-box"><span class="front">成功案例</span><span class="back">成功案例</span></span>
+								</a>
+							</li>
+							<li class="about">
+								<a href="profile.html" class="three-d">
+									合作伙伴
+									<span class="three-d-box"><span class="front">合作伙伴</span><span class="back">合作伙伴</span></span>
+								</a>
+							</li>
+							<li class="about2">
+								<a href="brief.html" class="three-d">
+									关于我们
+									<span class="three-d-box"><span class="front">关于我们</span><span class="back">关于我们</span></span>
+								</a>
+							</li>
+						</ul>
+					</div>
+					<!-- /.navbar-collapse -->
+				</div>
+				<!-- /.container-fluid -->
+			</nav>
+		</div>
+		<!-- 合作伙伴的二级导航-->
+		<div class="container-fiuid nav-1" style="display: none;">
+			<ul class="navs1-box container">
+				<li>
+					<a href="customer.html">重点客户</a>
+				</li>
+				<li>
+					<a href="profile.html">合作伙伴</a>
+				</li>
+			</ul>
+		</div>
+		<!-- 关于我们的二级导航-->
+		<div class="container-fiuid nav-2" style="display: none;">
+			<ul class="navs2-box container">
+				<li>
+					<a href="Contact.html">联系我们</a>
+				</li>
+				<li>
+					<a href="recruit.html">诚聘英才</a>
+				</li>
+				<li>
+					<a href="journalism.html">新闻动态</a>
+				</li>
+				<li>
+					<a href="brief.html">公司简介</a>
+				</li>
+			</ul>
+		</div>
+		<!-- nav 结束-->
+		<!--主题部分-->
+		<!--<div class="container-fiuid banner">
+			<p class="h2 text-center">创新、和谐、卓越、负责</p>
+			<p class="h3 text-center">做中国信息和技术服务的领航者。</p>
+		</div>-->
+		<div class="container-fluid banner">
+			<div class="top-floor">
+				<p class="title-word">
+					<span>创新、和谐、卓越、负责</span><br>
+					<span>做中国信息和技术服务的领航者。</span>
+				</p>
+			</div>
+
+		</div>
+
+		<div class="container-fiuid" style="border-bottom:1px solid #ccc;margin-bottom:89px">
+			<div class="container">
+				<div class="content-title">公司简介</div>
+			</div>
+		</div>
+		<div class="container">
+			<p class="text-center">以服务创新促进中国流通产业结构升级</p>
+			<p class="text-center">六大核心服务为客户提供切实可行的关键帮助和全面的信息化解决方案</p>
+			<p class="p3">中商流通生产力促进中心（以下简称中心）是由国家科技部和原国家经贸委批准成立的信息和技术服务机构，其前身是国内贸易部商用电子技术应用推广中心。中心在国家工商总局注册,是国内流通领域专业性最强的综合服务机构，经国家科技部认定为“国家级示范生产力促进中心”，也是国家商务部主要技术支持单位之一。中心是全国商业自动化标准化技术委员会秘书处单位、中国商业联合会常务理事单位、中国商业统计学会常务理事单位、中国连锁经营协会理事单位、中国流通三十人论坛（G30）秘书处单位，是国家人力资源和社会保障部批准设立的博士后工作站。</p>
+		</div>
+		<div class="container">
+			<div class="propaganda-img  row">
+				<div class="propaganda-img-1  col-xs-6 col-md-4">
+					<img src="images/brief111_05.gif" />
+					<img src="images/brief111_10.jpg" />
+				</div>
+				<div class="propaganda-img-2  col-xs-12 col-md-8"></div>
+			</div>
+		</div>
+		<!--	时间抽-->
+		<div class="cd container-fiuid">
+			<div class="container cd-box">
+				<p class="text-center" style="font-size: 16px;padding-top: 60px; font-family: '微软雅黑';">公司大事记</p>
+				<section id="cd-timeline" class="cd-container">
+					<div class="cd-timeline-block">
+						<div class="cd-timeline-img cd-picture"></div>
+						<div class="cd-timeline-content">
+							<p>由国务院批准成立国内贸易部商用电子技术推广中心。</p>
+							<span class="cd-date">1994</span>
+						</div>
+						<!-- cd-timeline-content -->
+					</div>
+					<!-- cd-timeline-block -->
+					<div class="cd-timeline-block">
+						<div class="cd-timeline-img cd-movie">
+
+						</div>
+						<!-- cd-timeline-img -->
+
+						<div class="cd-timeline-content">
+							<p>由国务院国有资产管理委员会和科技部经贸委批准成立 中商流通生产力促进中心。</p>
+							<span class="cd-date">2000</span>
+						</div>
+						<!-- cd-timeline-content -->
+					</div>
+					<!-- cd-timeline-block -->
+
+					<div class="cd-timeline-block">
+						<div class="cd-timeline-img cd-picture">
+						</div>
+						<!-- cd-timeline-img -->
+						<div class="cd-timeline-content">
+							<p>国家工商总局注册成立中商流通生产力促进中心（有限公司）</p>
+							<span class="cd-date">2007</span>
+						</div>
+						<!-- cd-timeline-content -->
+					</div>
+					<!-- cd-timeline-block -->
+
+					<div class="cd-timeline-block">
+						<div class="cd-timeline-img cd-location">
+
+						</div>
+						<!-- cd-timeline-img -->
+
+						<div class="cd-timeline-content">
+
+							<p>形成以食品安全。农牧业物联网、咨询规划服务、大数据 应用、电子政务、流通化信息服务为主线的发展理念。</p>
+							<span class="cd-date">2013</span>
+						</div>
+						<!-- cd-timeline-content -->
+					</div>
+					<!-- cd-timeline-block -->
+
+					<div class="cd-timeline-block">
+						<div class="cd-timeline-img cd-location">
+						</div>
+						<!-- cd-timeline-img -->
+						<div class="cd-timeline-content">
+							<p>中国最强大的食品安全信息服务商之一；商务大数据应用 领域的开拓者；中国最大的流通领域信息与技术服务商； 中国最专业的商业咨询规划服务机构。
+							</p>
+							<span class="cd-date">2016</span>
+						</div>
+						<!-- cd-timeline-content -->
+					</div>
+					<!-- cd-timeline-block -->
+				</section>
+				<!-- cd-timeline -->
+				<div class="cd-tiem" style="height: 100px;"></div>
+			</div>
+
+			<!--中心领导部分-->
+			<div class="container-fiuid leader-box">
+				<div class="container">
+					<p class="leader-p" style="font-weight: 600;">中心领导</p>
+					<div class="leader-1">
+						<div class="img-leader">
+							<img src="images/laod.png" class="img-responsive img-le-1" />
+						</div>
+						
+						<p class="leader-p-1"><span style="font-size: 16px;color: #333; padding-right: 10px;">余岭</span>中商流通生产力促进中心有限公司总经理</p>
+						<p class="leader-p-2">  余岭，博士。现任中商流通生产力促进中心常务副主任、总经理。长期从事流通领域信息系统规划和项目管理工作，多次主持并参与科技部 “十一五”、“十二五”和863等一批国家级重大科研项目。在食品安全信息化体系建设领域具有丰富的经验，先后参与科技部、商务部等多个食品安全科技课题、技术规范的起草工作。2005年率领团队获得“中央企业学习型红旗班组”称号。</p>
+					</div>
+
+					<div class="leader-2">
+						<img src="images/24.png" class="img-responsive img-le-2" />
+						<p class="leader-p-3"> 中商流通生产力促进中心有限公司主任   <span style="font-size: 16px;color: #333; padding-left: 10px;">刘普合</span></p>
+						<p class="leader-p-4"> 刘普合，中商流通生产力促进中心有限公司主任，商务部市场运行调控专家、商务部电子商务专家咨询委员会委员、全国食品安全管理技术标准化技术委员会食品追溯技术分技术委员会委员。主持编写商务部《城市商业网点规划编制规范》，负责若干城市的商业网点规划；作为技术总设计人，完成了商务部“全国城乡市场运行监测系统”、“全国生猪市场预测预警系统”和“肉菜流通追溯体系城市管理平台”。</p>
+					</div>
+				</div>
+
+			</div>
+
+			<div class="container-fiuid adva">
+				<div class="container adva-1">
+					<p class="text-center" style="font-size: 18px;">优势</p>
+					<p>主要业务优势：提供市场监测、预测预警、应急保障、食品安全追溯等专业平台构建，包括软件研发、系统集成、运营维护等一揽子综合解决方案；承担国家重点项目、课题、标准及指数研究，包括国家863计划项目、国家“九五”和“十五”科技攻关课题、“十一五”国家科技支撑项目；开展专业信息咨询、商业规划、会展策划、行业培训等相关服务。中心主要客户包括国家部委、地方政府、行业组织、流通企业等。中心承担的国家商务部“城乡市场统计监测体系”，为保障全国商品市场的平稳运行和应急调控发挥了重要作用。 中心是国家级高新技术企业，通过了ISO9001质量体系认证、“双软”企业认定、计算机信息系统集成企业资质认证，拥有计算机软件著作权近30项。中心拥有丰富的国内外专家资源和200多人的精英团队，其中40%具有硕士以上学历，并在杭州、南京、海口、武汉、成都等城市设有分中心。中心被国务院国有资产监督管理委员会授予“中央企业学习型红旗班组”荣誉称号。 </p>
+				</div>
+			</div>
+		</div>
+
+		<div class="container-fiuid cd-img-box">
+			<img src="images/jianjie_03.png" class="img-responsive" />
+		</div>
+		<!--footer开始-->
+		<!--<div class="Map " style="background: #F8F8F8; ">
+			<div style="height:550px;font-size:12px;margin: auto;border-radius:60px ;" id="map" class="container"></div>
+		</div>-->
+
+		<div id="footer"></div>
+		<!-- 返回顶部-->
+		<div class="gotop"></div>
+
+	</body>
+	<script type="text/javascript">
+		$(function() {
+			$("#footer").load("footer.html")
+		})
+	</script>
+
+</html>

@@ -1,0 +1,107 @@
+.banner {
+	background: url(../images/cheng2.png) no-repeat center;
+	height: 400px;
+	position: relative;
+}
+
+.banner-box {
+	width: 100%;
+	height: 400px;
+	position: absolute;
+	/*background: rgba(255, 255, 255, .3);*/
+}
+
+.title-word {
+	text-align: center;
+	width: 350px;
+	height: 70px;
+	margin: 140px 0 0 -125px;
+	position: relative;
+	left: 50%;
+	top: 50%;
+}
+
+ .title-word span:first-child {
+	font: 22px 微软雅黑;
+	color: #CA171D;
+	font-weight: 600;
+}
+
+ .top-floor .title-word span:last-child {
+	font: 16px 微软雅黑;
+	line-height: 50px;
+	color: #333333;
+	font-weight: 600;
+}
+
+.recruit-box h3 {
+	font-size: 25px;
+	color: #CA171D;
+	padding-top: 20px;
+	font-weight: 600;
+}
+
+.recruit-box p:nth-child(1) {
+	font-size: 16px;
+	font-weight: 600;
+	color: #CA171D;
+}
+
+.recruit-box-word {
+	padding-top: 20px;
+	line-height: 35px;
+	border: 1px solid #CCCCCC;
+	padding: 10px;
+	margin-top: 20px;
+	border-radius: 20px;
+	color: #666666;
+	font-family: "微软雅黑";
+}
+
+#recr-span {
+	font-weight: 600;
+}
+
+.record-footer-1 {
+	font-size: 16px;
+	color: #666666;
+	line-height: 35px;
+	font-weight: 600;
+	border: 1px solid #CCCCCC;
+	border-radius: 20px;
+	padding: 20px;
+	margin-top: 20px;
+}
+
+.record-footer-1-p1 {
+	font-size: 16px;
+	color: #666666;
+}
+
+.navs-box-1 {
+	height: 44px;
+	border-bottom: 1px solid #ccc;
+	line-height: 44px;
+}
+
+.navs-box-1 p {
+	text-align: center;
+	color: #CA171D;
+	border-bottom: 1px solid #CA171D;
+	width: 90px;
+	margin: auto;
+	font-family: "微软雅黑";
+}
+
+
+/*返回顶部*/
+
+.gotop {
+	width: 38px;
+	height: 50px;
+	background: url(../images/top.png)no-repeat center;
+	position: fixed;
+	display: none;
+	right: 0;
+	bottom: 100px;
+}

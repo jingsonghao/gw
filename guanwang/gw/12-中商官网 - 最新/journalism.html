@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>新闻动态</title>
+		<meta name="renderer" content="webkit|ie-comp|ie-stand">
+		<link rel="stylesheet" type="text/css" href="css/common.css" />
+		<link rel="stylesheet" type="text/css" href="css/journalism.css" />
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+		<script src="js/jquery-3.2.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/header.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/top.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<script type="text/javascript">
+		//检测浏览器 加载不同的样式
+		if(!!window.ActiveXObject || "ActiveXObject" in window) {
+			document.write('<link rel=stylesheet type="text/css" href="css/ie.css">')
+		} else {
+			document.write('<link rel=stylesheet type="text/css" href="css/header.css">')
+		}
+	</script>
+
+	<body>
+		<!--	nav部分-->
+		<div class="container-fluid navss">
+			<nav class="navbar navbar-default container" id="navbar" style="background: #fff;z-index: 999; ">
+				<div class="container-fluid">
+					<!-- Brand and toggle get grouped for better mobile display -->
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false" style="z-index: 999;">
+                               <span class="sr-only">Toggle navigation</span>
+                               <span class="icon-bar"></span>
+                               <span class="icon-bar"></span>
+                               <span class="icon-bar"></span>
+                        </button>
+						<a class="navbar-left" href="#">
+							<img src="images/logo.gif" id="logo" class="animated fadeInRight" />
+						</a>
+					</div>
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						<ul class=" navbar-nav  navbar-right  nav-menu clearfix  unstyled">
+							<li>
+								<a href="index.html" class="three-d ">
+									首页
+									<span class="three-d-box"><span class="front">首页</span><span class="back">首页</span></span>
+								</a>
+							</li>
+							<li>
+								<a href="serve.html" class="three-d">
+									产品服务
+									<span class="three-d-box"><span class="front">产品服务</span><span class="back">产品服务</span></span>
+								</a>
+							</li>
+							<li>
+								<a href="Success.html" class="three-d">
+									成功案例
+									<span class="three-d-box"><span class="front">成功案例</span><span class="back">成功案例</span></span>
+								</a>
+							</li>
+							<li class="about">
+								<a href="profile.html" class="three-d">
+									合作伙伴
+									<span class="three-d-box"><span class="front">合作伙伴</span><span class="back">合作伙伴</span></span>
+								</a>
+							</li>
+							<li class="about2">
+								<a href="brief.html" class="three-d">
+									关于我们
+									<span class="three-d-box"><span class="front">关于我们</span><span class="back">关于我们</span></span>
+								</a>
+							</li>
+						</ul>
+					</div>
+					<!-- /.navbar-collapse -->
+				</div>
+				<!-- /.container-fluid -->
+			</nav>
+		</div>
+		<!-- 合作伙伴的二级导航-->
+		<div class="container-fiuid nav-1" style="display: none;">
+			<ul class="navs1-box container">
+				<li>
+					<a href="customer.html">重点客户</a>
+				</li>
+				<li>
+					<a href="profile.html">合作伙伴</a>
+				</li>
+			</ul>
+		</div>
+		<!-- 关于我们的二级导航-->
+		<div class="container-fiuid nav-2" style="display: none;">
+			<ul class="navs2-box container">
+				<li>
+					<a href="Contact.html">联系我们</a>
+				</li>
+				<li>
+					<a href="recruit.html">诚聘英才</a>
+				</li>
+				<li>
+					<a href="journalism.html">新闻动态</a>
+				</li>
+				<li>
+					<a href="brief.html">公司简介</a>
+				</li>
+			</ul>
+		</div>
+		<!-- banner开始-->
+		<div class="container-fluid banner">
+			<div class="top-floor">
+				<p class="title-word">
+					<span>海纳百川，有容乃大</span><br>
+					<span>您要的信息全在这里。</span>
+				</p>
+			</div>
+		</div>
+		<div class="container-fluid jour">
+			<p>新闻动态</p>
+		</div>
+		<div class="container">
+			<!--	第一部分	-->
+			<ul id="timeline">
+				<li class="timeline-1">
+					<div class="timeline-content">
+						<div class="word-1 ">
+							<div style="display:inline;">
+								<span style="margin-left:40px;">时间：</span>
+							</div>
+							<div class="tab-1" style="display: inline;">
+								<span class="whole">全部</span>
+								<span>一周内</span>
+								<span>一月度</span>
+								<span>一季度</span>
+								<span>半年内</span>
+								<span>一年内</span>
+							</div>
+							<div style="display:inline;"><br/>
+								<span style="margin-left:40px;">类型：</span>
+							</div>
+							<div class="tab-2" style="display: inline;">
+								<span class="whole">全部</span>
+								<span>公司</span>
+								<span>政策</span>
+								<span>媒体</span>
+							</div>
+						</div>
+					</div>
+				</li>
+				<li>
+					<!-- 	第一部分结束-->
+					<!-- 	第二部分开始-->
+					<div class="timeline-content">
+						<img src="images/new_08.png" style="display: block;float: left;margin-right: 20px;" />
+						<div class="line">
+							<span>食药追溯</span><br />
+							<span>2017-5-15</span><br />
+							<span class="span3">为政府提供食品药品监管信息化建设的一体化解决方案，实现药品、保健食品、餐饮食品、化妆品、医疗器械产品在生产环节、批发环节、零售环节、使用环节的全程可追溯，打造食品药品质量安全追溯信息网络。</span>
+						</div>
+
+					</div>
+				</li>
+				<li>
+					<div class="timeline-content">
+						<img src="images/new_08.png" style="display: block;float: left; margin-right: 20px;" />
+						<div class="line">
+							<span>食药追溯</span><br />
+							<span>2017-5-15</span><br />
+							<span class="span3">为政府提供食品药品监管信息化建设的一体化解决方案，实现药品、保健食品、餐饮食品、化妆品、医疗器械产品在生产环节、批发环节、零售环节、使用环节的全程可追溯，打造食品药品质量安全追溯信息网络。</span>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="timeline-content">
+						<img src="images/new_08.png" style="display: block;float: left;margin-right: 20px;" />
+						<div class="line">
+							<span>食药追溯</span><br />
+							<span>2017-5-15</span><br />
+							<span class="span3">为政府提供食品药品监管信息化建设的一体化解决方案，实现药品、保健食品、餐饮食品、化妆品、医疗器械产品在生产环节、批发环节、零售环节、使用环节的全程可追溯，打造食品药品质量安全追溯信息网络。</span>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="timeline-content">
+						<img src="images/new_08.png" style="display: block;float: left;margin-right: 20px;" />
+						<div class="line">
+							<span>食药追溯</span><br />
+							<span>2017-5-15</span><br />
+							<span class="span3">为政府提供食品药品监管信息化建设的一体化解决方案，实现药品、保健食品、餐饮食品、化妆品、医疗器械产品在生产环节、批发环节、零售环节、使用环节的全程可追溯，打造食品药品质量安全追溯信息网络。</span>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="timeline-content">
+						<img src="images/new_08.png" style="display: block;float: left;margin-right: 20px;" />
+						<div class="line">
+							<span>食药追溯</span><br />
+							<span>2017-5-15</span><br />
+							<span class="span3">为政府提供食品药品监管信息化建设的一体化解决方案，实现药品、保健食品、餐饮食品、化妆品、医疗器械产品在生产环节、批发环节、零售环节、使用环节的全程可追溯，打造食品药品质量安全追溯信息网络。</span>
+						</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+		<div id="footer" style="margin-top: 50px;"></div>
+		<!-- 返回顶部-->
+		<div class="gotop"></div>
+	</body>
+	<script type="text/javascript">
+		$(function() {
+			$("#footer").load("footer.html")
+			$(".tab-1 span").click(function() {
+				var i = $(this).index()
+				$(".tab-1 span").removeClass("whole").eq(i).addClass("whole");
+			})
+			$(".tab-2 span").click(function() {
+				var i = $(this).index()
+				$(".tab-2 span").removeClass("whole").eq(i).addClass("whole");
+
+			})
+		})
+	</script>
+
+</html>

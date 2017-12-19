@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+	<head>
+		<meta charset="utf-8">
+		<meta name="renderer" content="webkit|ie-comp|ie-stand">
+		<!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
+		<title>中商流通官网首页</title>
+		<link rel="stylesheet" href="css/common.css">
+		<link rel="stylesheet" href="css/jquery.fullPage.css">
+		<link rel="stylesheet" href="./css/index.css" />
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/animate.css" />
+		<script src="./js/jquery-3.2.1.min.js"></script>
+		<script src="./js/jquery.fullPage.min.js"></script>
+		<script src="js/header.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/Stats.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/TweenMax.min.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			function htRem() {
+				var ww = document.documentElement.clientWidth;
+				if(ww > 1920) {
+					ww = 1920
+				}
+				document.documentElement.style.fontSize = ww / 19.20 + "px"
+			 }
+			htRem();
+			window.onresize = function() {
+				htRem();
+			}
+			//检测浏览器 加载不同的样式
+			if(!!window.ActiveXObject || "ActiveXObject" in window) {
+				document.write('<link rel=stylesheet type="text/css" href="css/ie.css">')
+			} else {
+				document.write('<link rel=stylesheet type="text/css" href="css/header.css">')
+			}
+		</script>
+	</head>
+	<body>
+		<div id="fullpage">
+			<!-- 导航-->
+			<div id="navs" style="z-index: 9999;">
+				<div class="container-fluid nav-box navss">
+					<nav class="navbar navbar-default container" id="navbar" style="background: #fff;z-index: 999; ">
+						<div class="container-fluid" style="border-bottom: 1px solid #CCCCCC; ">
+							<!-- Brand and toggle get grouped for better mobile display -->
+							<div class="navbar-header">
+								<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false" style="z-index: 999;">
+                                       <span class="sr-only">Toggle navigation</span>
+                                       <span class="icon-bar"></span>
+                                       <span class="icon-bar"></span>
+                                       <span class="icon-bar"></span>
+                                </button>
+								<a class="navbar-left-1" href="#">
+									<img src="images/logo.gif" id="logo" class="animated fadeInRight" style="margin-top: 5px;" />
+								</a>
+							</div>
+							<!-- Collect the nav links, forms, and other content for toggling -->
+							<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+								<ul class=" navbar-nav  navbar-right  nav-menu clearfix  unstyled">
+									<li>
+										<a href="index.html" class="three-d ">
+											首页
+											<span class="three-d-box"><span class="front">首页</span><span class="back">首页</span></span>
+										</a>
+									</li>
+									<li>
+										<a href="serve.html" class="three-d">
+											产品服务
+											<span class="three-d-box"><span class="front">产品服务</span><span class="back">产品服务</span></span>
+										</a>
+									</li>
+									<li>
+										<a href="Success.html" class="three-d">
+											成功案例
+											<span class="three-d-box"><span class="front">成功案例</span><span class="back">成功案例</span></span>
+										</a>
+									</li>
+									<li class="about">
+										<a href="profile.html" class="three-d">
+											合作伙伴
+											<span class="three-d-box"><span class="front">合作伙伴</span><span class="back">合作伙伴</span></span>
+										</a>
+									</li>
+									<li class="about2">
+										<a href="brief.html" class="three-d">
+											关于我们
+											<span class="three-d-box"><span class="front">关于我们</span><span class="back">关于我们</span></span>
+										</a>
+									</li>
+								</ul>
+							</div>
+							<!-- /.navbar-collapse -->
+						</div>
+						<!-- /.container-fluid -->
+					</nav>
+				</div>
+				<!-- 合作伙伴的二级导航-->
+				<div class="container-fiuid nav-1" style="display: none;">
+					<ul class="navs1-box container">
+						<li>
+							<a href="customer.html">重点客户</a>
+						</li>
+						<li>
+							<a href="profile.html">合作伙伴</a>
+						</li>
+					</ul>
+				</div>
+				<!-- 关于我们的二级导航-->
+				<div class="container-fiuid nav-2" style="display: none;z-index: 9999;">
+					<ul class="navs2-box container">
+						<li>
+							<a href="Contact.html">联系我们</a>
+						</li>
+						<li>
+							<a href="recruit.html">诚聘英才</a>
+						</li>
+						<li>
+							<a href="journalism.html">新闻动态</a>
+						</li>
+						<li>
+							<a href="brief.html">公司简介</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="section first  container-fiuid " style="overflow: hidden;">
+				<div class="container-fiuid">
+					<img src="images/banner2.png" class="img1 img-responsive" style="display: block;" />
+				</div>
+				<div class="container-fiuid">
+					<img src="images/banner-03.png" class="img1 img-responsive" />
+				</div>
+				<ul class="banner-Button">
+					<li class="active"></li>
+					<li></li>
+					<!--<li></li>-->
+				</ul>
+			</div>
+			<div class="section second">
+				<!-- 第二屏内容 -->
+				<div class="box2">
+					<div class="solution">
+						<div class="word-1">SOLUTION</div>
+						<div class="word-2">我们可以为您解决什么问题？</div>
+						<div class="word-3">我们关注于食品安全，商业数据等方面问题</div>
+					</div>
+					<div class="detail container">
+						<ul class="row">
+							<li class="col-xs-6 col-md-3 cate-sm">
+								<!--<img src="images/icos2_04.gif" alt="" class="img-responsive">-->
+								<div class="wcdc-img"></div>
+								<p class="p1">食品安全</p>
+								<!-- <p><a href="javascript:;">查看详情</a></p> -->
+							</li>
+							<li class="col-xs-6 col-md-3 cate-sm">
+								<!--<img src="images/icos2_06.gif" alt=""  class="img-responsive">-->
+								<div class="wcdc-img2 wcdc-img"></div>
+								<p class="p1">商业大数据</p>
+							</li>
+							<li class="col-xs-6 col-md-3 cate-sm">
+								<!--<img src="images/icos2_08.gif" alt=""  class="img-responsive">-->
+								<div class="wcdc-img3 wcdc-img"></div>
+								<p class="p1">咨询规划</p>
+								<!-- <p><a href="javascript:;">查看详情</a></p> -->
+							</li>
+							<li class="col-xs-6 col-md-3 cate-sm">
+								<!--<img src="images/icos2_10.gif" alt=""  class="img-responsive">-->
+								<div class="wcdc-img4 wcdc-img"></div>
+								<p class="p1">电子政务</p>
+								<!--<p><a href="javascript:;">查看详情</a></p>-->
+							</li>
+							<li>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="section third ">
+				<!-- 第三屏内容开始 -->
+				<div class="box3">
+					<div class="light time-94">
+						<span>1994</span>
+					</div>
+					<!--	<div class="light time-01"><span>都市打斗</span></div>-->
+					<div class="light time-00">
+						<span>2000</span>
+						<!--	<div class="line-2"></div>-->
+					</div>
+					<!--	<div class="light time-08"><span></span></div>-->
+					<div class="light time-07">
+						<span>2007</span>
+						<!--<div class="line-3"></div>-->
+					</div>
+					<!--	<div class="light time-12"><span></span></div>-->
+					<div class="light time-13">
+						<span>2013</span>
+						<!--<div class="line-2"></div>-->
+					</div>
+					<!--<div class="light time-15"><span></span></div>-->
+					<div class="light time-16">
+						<span>2016</span>
+					</div>
+					<!--<div class="light time-now"><span></span></div>-->
+					<div class="history">
+						<p>HISTORY</p>
+						<p>公司发展历程</p>
+						<p>国家工商总局注册成立中商流通生产力促进中心（有限公司）。</p>
+					</div>
+				</div>
+			</div>
+			<div class="section fourth">
+				<!-- 第四屏 -->
+				<!--svg背景图片-->
+				<svg id="demo" viewBox="0 0 1600 600" preserveAspectRatio="xMidYMid slice" style="position: absolute;z-index: 2;">
+					<defs>
+						<linearGradient id="grad1" x1="0" y1="0" x2="1" y2="0" color-interpolation="sRGB">
+							<stop id="stop1a" offset="0%" stop-color="#12a3b4"></stop>
+							<stop id="stop1b" offset="100%" stop-color="#ff509e"></stop>
+						</linearGradient>
+						<linearGradient id="grad2" x1="0" y1="0" x2="1" y2="0" color-interpolation="sRGB">
+							<stop id="stop2a" offset="0%" stop-color="#e3bc13"></stop>
+							<stop id="stop2b" offset="100%" stop-color="#00a78f"></stop>
+						</linearGradient>
+					</defs>
+					<rect id="rect1" x="0" y="0" width="1600" height="600" stroke="none" fill="url(#grad1)"></rect>
+					<rect id="rect2" x="0" y="0" width="1600" height="600" stroke="none" fill="url(#grad2)"></rect>
+				</svg>
+				<div class="box4" style="position: relative;z-index: 8;">
+					<div class="design">
+						<p>CASES</p>
+						<p>产品设计案例</p>
+					</div>
+					<div class="categray container">
+						<ul class="row">
+							<li class="col-xs-6 col-sm-3 case-wrap">
+								<div class="case-img">
+									<a href="javascript:;">
+										<span class="case-alpha"></span>
+										<img src="images/3.jpg" alt="">
+									</a>
+								</div>
+								<div class="case-text">
+									<span>佰信购物网站</span>
+									<div class="case-text-alpha"></div>
+								</div>
+							</li>
+							<li class="col-xs-6 col-sm-3 case-wrap">
+								<div class="case-img">
+									<a href="javascript:;">
+										<span class="case-alpha"></span>
+										<img src="images/4.jpg" alt="">
+									</a>
+								</div>
+								<div class="case-text">
+									<span>佰信购物网站</span>
+									<div class="case-text-alpha"></div>
+								</div>
+							</li>
+							<li class="col-xs-6 col-sm-3 case-wrap">
+								<div class="case-img">
+									<a href="javascript:;">
+										<span class="case-alpha"></span>
+										<img src="images/3.jpg" alt="">
+									</a>
+								</div>
+								<div class="case-text">
+									<span>佰信购物网站</span>
+									<div class="case-text-alpha"></div>
+								</div>
+							</li>
+							<li class="col-xs-6 col-sm-3 case-wrap">
+								<div class="case-img">
+									<a href="javascript:;">
+										<span class="case-alpha"></span>
+										<img src="images/4.jpg" alt="">
+									</a>
+								</div>
+								<div class="case-text">
+									<span>佰信购物网站</span>
+									<div class="case-text-alpha"></div>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="section fifth">
+				<!-- 第五屏内容 -->
+				<div class="box5">
+					<div class="Company">
+						<div class="code">
+							<img src="images/code_03.jpg" />
+						</div>
+						<div class="information">
+							<p class="ipnoe animated fadeInDownBig">010-65206206</p>
+							<div class="in-left">
+								<p>技术支持：010-64876152</p>
+								<p class="fax">传真：010-65206208</p>
+								<p class="mailbox">邮箱：zslt@126.com </p>
+							</div>
+							<div class="in-right">
+								<p class="address">北京市朝阳区科学园南里中街西奥中心B座20层 </p>
+								<p class="record">备案号/经营许可证号：京ICP备05011365号</p>
+								<p class="copyright">版权所有©1998-2010中商流通生产力促进中心</p>
+							</div>
+						</div>
+						<div class="linellae"></div>
+					</div>
+					<div class="bottom-icon">
+						<p class="bottom-icon-1">中国信息和技术服务的领航者</p>
+						<p class="bottom-icon-2">Take the Leading Position in Information &Technology services </p>
+					</div>
+					<div class="bottom">
+						<p>END</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+
+</html>

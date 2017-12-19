@@ -1,0 +1,109 @@
+  /* banner开始 */
+        
+   .banner {
+            width: 100%;
+            height: 400px !important;
+            background: url(../images/gateway_02.png) no-repeat center;
+        }
+   
+.title-word {
+	text-align: center;
+	width: 350px;
+	height: 70px;
+	margin: 140px 0 0 -125px;
+	position: relative;
+	left: 50%;
+	top: 50%;
+}
+
+ .title-word span:first-child {
+	font: 22px 微软雅黑;
+	color: #CA171D;
+	font-weight: 600;
+}
+
+ .top-floor .title-word span:last-child {
+	font: 16px 微软雅黑;
+	line-height: 50px;
+	color: #333333;
+	font-weight: 600;
+}
+        /* banner结束 */
+        /* 主题1开始  */
+        
+        .content-title {
+            width: 90px;
+            height: 45px;
+            margin: 0 auto;
+            color: #c92127;
+            text-align: center;
+            line-height: 45px;
+            font-family: 微软雅黑;
+            border-bottom: 1px solid #c92127;
+        }
+        
+        .container-fluid .container .spacing .title-info {
+            font: 12px 微软雅黑;
+            color: #8c8461
+        }
+        
+        .container-fluid .container .spacing .title-world {
+            margin-left: 35px;
+            font: 12px 微软雅黑;
+             color: #666666;
+        }
+        
+        .container-fluid .container .spacing .title-world span+span {
+            margin-left: 30px;
+        }
+        
+        .container-fluid .container .spacing {
+            margin-bottom: 10px;
+        }
+        
+        .container-fluid .container .spacing-title {
+            margin-bottom: 25px;
+        }
+        
+        .container-fluid .container .spacing-title .title-world span {
+            line-height: 30px;
+        }
+        
+        .icon-world {
+           margin: 8px 13px 13px;
+            vertical-align: middle;
+        }
+        /* 主题1结束 */
+        /* 主题2开始 */
+        
+        .container-fluid .container .row .col-md-6 .content2-info {
+            font: 12px 微软雅黑;
+            color: 666666;
+        }
+        
+        .container-fluid .container .row .col-md-6 .content2-info span+span {
+            margin-left: 10px;
+            line-height: 25px;
+             color: 666666;
+        }
+        /* 主题2结束 */
+        /* 主题3开始 */
+        
+        .container-fluid .container .row .col-md-6 .pic {
+            margin-top: 20px
+        }
+        
+        .spacing img{
+        	float: left;
+        }
+        /* 主题3结束 */
+  /*返回顶部*/
+.gotop{
+	width: 38px;
+	height: 50px;
+	background: url(../images/top.png)no-repeat center;
+	 position: fixed;
+     display: none;
+     right:0 ;
+     bottom: 100px;
+}
